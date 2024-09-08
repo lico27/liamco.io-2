@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaReact } from "react-icons/fa";
 
-const year = 2024;
+const currentDate = new Date();
+const year = currentDate.getFullYear();
 
 const Footer = () => {
   return (
