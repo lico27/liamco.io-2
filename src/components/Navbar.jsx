@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function navOne() {
   return (
         <Navbar expand="lg" className="navbar navbar-expand-lg bg-primary px-4" data-bs-theme="dark">
-          <Container>
+          {/* <Container>
           <Navbar.Brand href="#home">Liamco</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -18,7 +18,7 @@ function navOne() {
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
-          </Container>
+          </Container> */}
         </Navbar>
   );
 }
