@@ -1,14 +1,21 @@
 * {
   --palette1: #131817;
   --palette2: #5AD767;
-  --palette3: #838995;
-
+  --palette3: rgba(255, 255, 255, 0.55);
 }
 
 /* #root {
   color: var(--palette3);
 } */
 
-/* .app-body {
-  height: 80vh;
-} */
+.app-body {
+  height: 75vh;
+}
+
+.contact-icons {
+  font-size: 2.5rem;
+}
+
+a:hover {
+  color: #919aa1;
+}
