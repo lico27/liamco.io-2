@@ -2,12 +2,9 @@
   --palette1: #131817;
   --palette2: #5AD767;
   --palette3: #838995;
+  background-color: var(--palette1);
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  color: var(--palette3);
 }
-
