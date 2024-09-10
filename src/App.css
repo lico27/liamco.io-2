@@ -2,9 +2,13 @@
   --palette1: #131817;
   --palette2: #5AD767;
   --palette3: #838995;
-  background-color: var(--palette1);
+
 }
 
 #root {
-  color: var(--palette3);
+  /* color: var(--palette3); */
+}
+
+.app-body {
+  height: 80vh;
 }

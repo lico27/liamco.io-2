@@ -1,8 +1,14 @@
+import './App.css'
+import Navbar from './components/Navbar.jsx'
 
 
 const App = () => {
   return (
-    <div>Hello World</div>
+    <>
+      <Navbar />
+      <div className='app-body'>
+      </div>
+    </>
   )
 }
 
