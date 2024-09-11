@@ -5,7 +5,7 @@ import Certs from '../pages/Certs'
 const AppBody = () => {
   return (
     <div className='app-body'>
-        {/* <Contact /> */}
+        <Contact />
         <Certs />
     </div>
   )

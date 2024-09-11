@@ -1,5 +1,5 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import CardSubtitle from 'react-bootstrap/CardSubtitle'
 
 function CertCard() {
   return (
@@ -10,9 +10,8 @@ function CertCard() {
     style={{ width: '14rem' }}
     >
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>Icon</Card.Text>
-        <Button variant="dark btn-sm" class='btn btn-sm'>Certificate</Button>
+        <Card.Subtitle className='m-1'>Icon</Card.Subtitle>
+        <Card.Text>Name of Certification</Card.Text>
       </Card.Body>
     </Card>
   );
