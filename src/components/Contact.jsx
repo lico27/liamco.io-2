@@ -4,7 +4,7 @@ import { FaThreads } from 'react-icons/fa6';
 
 const Contact = () => {
   return (
-    <div className='w-100 flex text-center'>
+    <div className='w-100 flex text-center py-5'>
         <h1 className='mb-4'>Hi, I'm Liam.</h1>
         <p className='mb-1'>My portfolio is a work in progress.</p>
         <p className='mb-2'>You can contact me here:</p>

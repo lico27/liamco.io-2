@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function navOne() {
+function NavOne() {
   return (
         <Navbar expand="lg" className="navbar navbar-expand-lg bg-primary px-4" data-bs-theme="dark">
           {/* <Container>
@@ -23,4 +23,4 @@ function navOne() {
   );
 }
 
-export default navOne;
+export default NavOne;
