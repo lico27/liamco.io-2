@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import CardSubtitle from 'react-bootstrap/CardSubtitle'
 import { SiCodecademy } from "react-icons/si";
 
 function CertCard() {
