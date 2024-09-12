@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import CardSubtitle from 'react-bootstrap/CardSubtitle'
+import { SiCodecademy } from "react-icons/si";
 
 function CertCard() {
   return (
@@ -10,8 +11,10 @@ function CertCard() {
     style={{ width: '14rem' }}
     >
       <Card.Body>
-        <Card.Subtitle className='m-1'>Icon</Card.Subtitle>
-        <Card.Text>Name of Certification</Card.Text>
+        <Card.Subtitle className='m-1'>
+            <SiCodecademy size={26}/>
+        </Card.Subtitle>
+        <Card.Text>Learn SQL</Card.Text>
       </Card.Body>
     </Card>
   );
