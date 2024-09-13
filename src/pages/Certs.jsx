@@ -1,6 +1,6 @@
 import React from 'react'
 import CertCard from '../components/CertCard'
-import { SiCodecademy } from "react-icons/si";
+import certs from '../assets/certs'
 
 const Certs = () => {
   return (
@@ -10,8 +10,16 @@ const Certs = () => {
         </div>
         <div className='cert-container text-center'>
             <CertCard 
-            name="Codecademy"
-            icon={<SiCodecademy />}
+            name={certs[0].name}
+            icon={certs[0].icon}
+            />
+            <CertCard 
+            name={certs[1].name}
+            icon={certs[1].icon}
+            />
+            <CertCard 
+            name={certs[2].name}
+            icon={certs[2].icon}
             />
         </div>
 
