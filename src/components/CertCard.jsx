@@ -1,7 +1,6 @@
 import Card from 'react-bootstrap/Card';
-import { SiCodecademy } from "react-icons/si";
 
-function CertCard() {
+function CertCard(props) {
   return (
     <Card 
     bg='dark' 
@@ -11,9 +10,11 @@ function CertCard() {
     >
       <Card.Body>
         <Card.Subtitle className='m-1'>
-            <SiCodecademy size={26}/>
+            {props.icon}
         </Card.Subtitle>
-        <Card.Text>Learn SQL</Card.Text>
+        <Card.Text>
+          {props.name}
+        </Card.Text>
       </Card.Body>
     </Card>
   );
