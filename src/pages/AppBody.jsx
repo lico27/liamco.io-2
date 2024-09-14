@@ -8,7 +8,7 @@ const AppBody = () => {
     <div className='app-body'>
         <Contact />
         {/* <Certs /> */}
-        <About />
+        {/* <About /> */}
     </div>
   )
 }
