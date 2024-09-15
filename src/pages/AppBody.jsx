@@ -6,9 +6,9 @@ import About from './About'
 const AppBody = () => {
   return (
     <div className='app-body'>
-        <Contact />
+        {/* <Contact /> */}
         {/* <Certs /> */}
-        {/* <About /> */}
+        <About />
     </div>
   )
 }
