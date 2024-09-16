@@ -1,6 +1,6 @@
 import React from 'react'
 import CertCard from '../components/CertCard'
-import certs from '../assets/certs'
+import { certs } from '../assets/certs'
 
 const Certs = () => {
   return (
@@ -12,10 +12,12 @@ const Certs = () => {
           {certs.map((cert, index) => {
             return <CertCard 
             key={index} 
-            name={cert.name} />
+            name={cert.name}
+            icon={cert.icon} 
+            title={cert.title}/>
           })}
 
-          
+
 
 
 

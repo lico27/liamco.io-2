@@ -10,10 +10,12 @@ function CertCard(props) {
     >
       <Card.Body>
         <Card.Subtitle className='m-1'>
-            {props.icon}
+          {props.name}
         </Card.Subtitle>
         <Card.Text>
-          {props.name}
+          {props.icon && <props.icon style={{fontSize: '1.75rem'}}/>}<br />
+          {props.title}
+
         </Card.Text>
       </Card.Body>
     </Card>
