@@ -7,8 +7,8 @@ const AppBody = () => {
   return (
     <div className='app-body'>
         {/* <Contact /> */}
-        {/* <Certs /> */}
-        <About />
+        <Certs />
+        {/* <About /> */}
     </div>
   )
 }

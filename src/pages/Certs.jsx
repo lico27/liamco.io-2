@@ -9,7 +9,18 @@ const Certs = () => {
             <h1 className='m-0 text-capitalize'>Certifications</h1> 
         </div>
         <div className='cert-container text-center'>
-            <CertCard 
+          {certs.map((cert, index) => {
+            return <CertCard 
+            key={index} 
+            name={cert.name} />
+          })}
+
+          
+
+
+
+
+            {/* <CertCard 
             name={certs[0].name}
             icon={certs[0].icon}
             />
@@ -20,7 +31,7 @@ const Certs = () => {
             <CertCard 
             name={certs[2].name}
             icon={certs[2].icon}
-            />
+            /> */}
         </div>
 
     </>
