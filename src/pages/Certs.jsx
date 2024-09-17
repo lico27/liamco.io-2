@@ -1,6 +1,6 @@
 import React from 'react'
 import CertCard from '../components/CertCard'
-import { completeCerts, inProgressCerts } from '../assets/certs'
+import { certs } from '../assets/certs'
 
 const Certs = () => {
   return (
@@ -9,7 +9,7 @@ const Certs = () => {
             <h1 className='m-0 text-capitalize'>Certifications</h1> 
         </div>
         <div className='cert-container text-center'>
-          {completeCerts.map((cert, index) => {
+          {certs.map((cert, index) => {
             return <CertCard 
             key={index} 
             icon={cert.icon} 
