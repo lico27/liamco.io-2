@@ -5,10 +5,6 @@
   --palette4: #55595c;
 }
 
-.app-body {
-  height: 65vh;
-}
-
 .contact-icons {
   font-size: 2.5rem;
   color: var(--palette4);

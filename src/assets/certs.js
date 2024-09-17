@@ -4,7 +4,7 @@ import { SiCodecademy,
          SiPython
         } from "react-icons/si";
 
-export const certs = [
+export const completeCerts = [
     {
         icon: SiCodecademy,
         title: "Learn SQL",
@@ -30,10 +30,17 @@ export const certs = [
         title: "Code Foundations",
         url: "https://www.codecademy.com/profiles/lico27/certificates/5b55e668646caa552f8e4d1d",
     },
+
     {
-        name: "freeCodeCamp",
         icon: SiFreecodecamp,
+        title: "Responsive Web Design",
+        url: "https://www.freecodecamp.org/certification/lico27/responsive-web-design",
     },
+
+
+]
+
+export const inProgressCerts = [
     {
         name: "Udemy",
         icon: SiUdemy,
@@ -41,6 +48,18 @@ export const certs = [
     {
         name: "Python",
         icon: SiPython,
-    }
+    },
+    {
+        icon: SiCodecademy,
+        title: "Career Path: Data Scientist (NLP Specialist)",
+    },
+    {
+        icon: SiCodecademy,
+        title: "Learn Python 3",
+    },
+    {
+        icon: SiCodecademy,
+        title: "Analyze Data with SQL",
+    },
 ]
 
