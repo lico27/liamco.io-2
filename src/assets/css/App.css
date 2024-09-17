@@ -22,14 +22,25 @@
   gap: 0.5rem;
 }
 
+.cert-body {
+  padding-bottom: 1.25rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .cert-url a {
   color: #f8f9fa;
-  font-size: 0.75rem;
   text-decoration: none;
 }
 
 .cert-url a:hover {
   color: #919aa1;
+}
+
+.cert-status {
+  font-size: 0.8rem;
 }
 
 #pfp {

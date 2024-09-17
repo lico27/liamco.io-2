@@ -8,20 +8,22 @@ function CertCard(props) {
     text='light' 
     style={{ width: '14rem' }}
     >
-      <Card.Body style={{ paddingBottom: '1.25rem' }}>
-        <Card.Subtitle className='m-1'>
-          <p className='m-0 cert-url'>
+      <Card.Body className='cert-body'>
+        <Card.Subtitle className='mt-2'>
+          <p className='cert-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
             {props.title}
             </a>
           </p>
         </Card.Subtitle>
         <Card.Text>
-          <p className='mt-2 mb-0'>
-            {props.icon && <props.icon style={{fontSize: '1.75rem'}}/>}</p>
-          
+          <p>
+            {props.icon && <props.icon style={{fontSize: '1.75rem'}}/>}
+          </p>
+          <p className='cert-status'>
+            {props.status}
+          </p>
         </Card.Text>
-       
       </Card.Body>
     </Card>
   );

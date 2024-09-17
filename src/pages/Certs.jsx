@@ -14,7 +14,9 @@ const Certs = () => {
             key={index} 
             icon={cert.icon} 
             title={cert.title}
-            url={cert.url}/>
+            url={cert.url}
+            status={cert.status}
+            />
           })}
         </div>
 
