@@ -26,6 +26,16 @@
   gap: 0.5rem;
 }
 
+.cert-url a {
+  color: #f8f9fa;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+.cert-url a:hover {
+  color: #919aa1;
+}
+
 #pfp {
   border-radius: 50%;
   max-width: 200px;
