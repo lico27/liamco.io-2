@@ -1,6 +1,6 @@
 import React from 'react'
 import CertCard from '../components/CertCard'
-import { certs } from '../assets/certs'
+import { certs } from '../assets/js/certs'
 
 const Certs = () => {
   return (

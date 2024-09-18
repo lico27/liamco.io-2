@@ -1,8 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 * {
   --palette1: #131817;
   --palette2: #5AD767;
   --palette3: rgba(255, 255, 255, 0.55);
   --palette4: #55595c;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-body {
+  flex: 1;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  border-top: 1px solid var(--palette4);
+  padding: 0.75rem 0;
 }
 
 .contact-icons {

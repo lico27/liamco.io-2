@@ -6,7 +6,7 @@ import {
 } from 'react-icons/fa';
 import { FaThreads } from 'react-icons/fa6';
 
-const Contact = () => {
+const GreetingTemp = () => {
   return (
     <div className='w-100 flex text-center py-5'>
         <h1 className='mb-4 text-capitalize'>Hi, I'm Liam</h1>
@@ -23,4 +23,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default GreetingTemp

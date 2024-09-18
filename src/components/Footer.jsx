@@ -14,7 +14,7 @@ const year = currentDate.getFullYear();
 
 const Footer = () => {
   return (
-    <div className='footer w-100 mt-4 text-center'>
+    <div className='footer w-100 mt-5 text-center'>
         <p className='mb-1'>Made by Liam Cottrell © {year}</p>
         <p className='mb-1'>
           <FaReact className='fs-3 mx-1'/>

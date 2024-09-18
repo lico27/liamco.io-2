@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const About = () => {
   return (
     <div className='w-50 mx-auto mb-5'>
