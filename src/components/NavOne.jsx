@@ -1,4 +1,5 @@
 import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
@@ -10,11 +11,11 @@ function NavOne() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">                
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#certs">Certifications</Nav.Link>
-                <Nav.Link href="#projects">Projects</Nav.Link>
-                <Nav.Link href="#blog">Blog</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link as={Link} to="/about">About</Nav.Link>
+                <Nav.Link as={Link} to="/certs">Certifications</Nav.Link>
+                <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+                <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+                <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
