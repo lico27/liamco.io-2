@@ -52,6 +52,10 @@ html, body {
   align-items: center;
 }
 
+.cert-sub {
+  color: #919aa1!important;
+}
+
 .cert-url a {
   color: #f8f9fa;
   text-decoration: none;

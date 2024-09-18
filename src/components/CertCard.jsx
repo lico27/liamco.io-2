@@ -9,7 +9,7 @@ function CertCard(props) {
     style={{ width: '14rem' }}
     >
       <Card.Body className='cert-body'>
-        <Card.Subtitle className='mt-2'>
+        <Card.Subtitle className='mt-2 cert-sub'>
           <p className='cert-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
             {props.title}
