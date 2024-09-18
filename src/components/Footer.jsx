@@ -15,8 +15,8 @@ const year = currentDate.getFullYear();
 const Footer = () => {
   return (
     <div className='footer w-100 mt-5 text-center'>
-        <p className='mb-1'>Made by Liam Cottrell © {year}</p>
-        <p className='mb-1'>
+        <h6 className='mb-1'>Made by Liam Cottrell © {year}</h6>
+        <p className='mb-2'>
           <FaReact className='fs-3 mx-1'/>
           <FaBootstrap  className='fs-3 mx-1'/>
           <FaHtml5 className='fs-3 mx-1'/>
@@ -24,6 +24,7 @@ const Footer = () => {
           <FaNodeJs className='fs-3 mx-1'/>
           <SiVite className='fs-3 mx-1'/>
         </p>
+        <h6>Theme by <a href="https://bootswatch.com/" target="_blank">Bootswatch</a></h6>
     </div>
   )
 }

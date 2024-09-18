@@ -70,3 +70,7 @@ html, body {
   max-width: 200px;
   margin: 0 auto
 }
+
+h6 {
+  font-size: 0.6rem!important;
+}
