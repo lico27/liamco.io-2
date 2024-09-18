@@ -44,12 +44,13 @@ export const certs = [
     },
     {
         icon: SiCodecademy,
-        title: "Career Path: Data Scientist (NLP Specialist)",
-        status: "In progress",
+        title: "Learn Python 3",
+        url: "https://www.codecademy.com/profiles/lico27/certificates/6c152bd262967f8c941c9707ed636bda",
+        status: "Complete",
     },
     {
         icon: SiCodecademy,
-        title: "Learn Python 3",
+        title: "Career Path: Data Scientist (NLP Specialist)",
         status: "In progress",
     },
     {
