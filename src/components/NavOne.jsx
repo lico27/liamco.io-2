@@ -7,11 +7,11 @@ function NavOne() {
   return (
         <Navbar expand="lg" className="navbar navbar-expand-lg bg-primary px-4" data-bs-theme="dark">
           <Container>
-          <Navbar.Brand href="#about">Liamco</Navbar.Brand>
+          <Navbar.Brand></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">                
-                <Nav.Link as={Link} to="/about">About</Nav.Link>
+                <Nav.Link as={Link} to="/">About</Nav.Link>
                 <Nav.Link as={Link} to="/certs">Certifications</Nav.Link>
                 <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
                 <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
