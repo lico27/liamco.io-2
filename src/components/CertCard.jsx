@@ -10,20 +10,18 @@ function CertCard(props) {
     style={{ width: '14rem' }}
     >
       <Card.Body className='cert-body'>
-        <Card.Subtitle className='mt-2 cert-sub'>
+        <Card.Title className='mt-1 cert-sub'>
           <span className='cert-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
             {props.title}
             </a>
           </span>
+        </Card.Title>
+        <Card.Subtitle className='m-0'>
+        {props.icon && <props.icon style={{fontSize: '1.75rem'}}/>}
         </Card.Subtitle>
-        <Card.Text>
-          <span>
-            {props.icon && <props.icon style={{fontSize: '1.75rem'}}/>}
-          </span>
-          <span className='cert-status'>
+        <Card.Text className='cert-status mt-2'>
             {props.status}
-          </span>
         </Card.Text>
       </Card.Body>
     </Card>
