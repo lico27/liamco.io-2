@@ -8,7 +8,7 @@ const Certs = () => {
         <div className='w-100 flex text-center py-5'>
             <h1 className='m-0 text-capitalize'>Certifications</h1> 
         </div>
-        <div className='cert-container text-center px-md-3 px-lg-5 px-xl-6'>
+        <div className='cert-container text-center px-1 px-md-3 px-lg-5 px-xl-6'>
           {certs.map((cert, index) => {
             return <CertCard 
             key={index} 
@@ -22,6 +22,6 @@ const Certs = () => {
 
     </>
   )
-}
+} 
 
 export default Certs

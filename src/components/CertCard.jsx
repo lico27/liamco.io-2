@@ -1,3 +1,4 @@
+import React from 'react'
 import Card from 'react-bootstrap/Card';
 
 function CertCard(props) {
@@ -10,19 +11,19 @@ function CertCard(props) {
     >
       <Card.Body className='cert-body'>
         <Card.Subtitle className='mt-2 cert-sub'>
-          <p className='cert-url'>
+          <span className='cert-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
             {props.title}
             </a>
-          </p>
+          </span>
         </Card.Subtitle>
         <Card.Text>
-          <p>
+          <span>
             {props.icon && <props.icon style={{fontSize: '1.75rem'}}/>}
-          </p>
-          <p className='cert-status'>
+          </span>
+          <span className='cert-status'>
             {props.status}
-          </p>
+          </span>
         </Card.Text>
       </Card.Body>
     </Card>
