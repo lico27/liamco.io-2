@@ -5,22 +5,24 @@ function ProjectCard(props) {
   return (
     <Card 
     bg='dark' 
-    border='light' 
+    border='dark' 
     text='light' 
-    style={{ width: '14rem' }}
+    style={{ width: '18rem' }}
     >
+      <Card.Img variant="top" src="src/assets/img/linda1.png" />
       <Card.Body className='cert-body'>
-        <Card.Subtitle className='mt-2 cert-sub'>
-          <p className='cert-url'>
+        <Card.Title className='mt-1 cert-sub'>
+          <span className='cert-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
             {props.title}
             </a>
-          </p>
+          </span>
+        </Card.Title>
+        <Card.Subtitle className='m-0 project-desc'>
+        {props.description}
         </Card.Subtitle>
-        <Card.Text>
-          <p>
-            Text
-          </p>
+        <Card.Text className='cert-status mt-2'>
+            {props.status}
         </Card.Text>
       </Card.Body>
     </Card>

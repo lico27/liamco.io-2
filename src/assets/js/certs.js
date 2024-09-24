@@ -65,7 +65,7 @@ export const certs = [
     },
     {
         icon: SiUdemy,
-        title: "Math Masterclass for Data Science",
+        title: "Statistics for Data Science and Business Analysis",
         status: "In progress",
     },
     {

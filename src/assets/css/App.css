@@ -79,6 +79,12 @@ h6 {
   font-size: 0.8rem;
 }
 
+.project-desc {
+  text-transform: none!important;
+  letter-spacing: normal!important;
+  font-size: 0.9rem!important;
+}
+
 #pfp {
   border-radius: 50%;
   max-width: 200px;

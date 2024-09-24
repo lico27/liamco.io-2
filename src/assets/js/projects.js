@@ -1,7 +1,7 @@
 export const projects = [
     {
-        title: 'Fanlisting',
-        description: 'Just for fun',
+        title: 'Pretty Goldfinches',
+        description: 'A project to practice PHP and MySQL...and relive my youth',
         url: 'https://liamco.io/linda/',
         status: 'Complete',
     }
