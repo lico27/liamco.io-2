@@ -18,6 +18,7 @@ const Projects = () => {
           description={project.description}
           url={project.url}
           status={project.status}
+          img={project.img}
           />
         })}
       </div>

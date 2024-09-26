@@ -9,7 +9,7 @@ function ProjectCard(props) {
     text='light' 
     style={{ width: '18rem' }}
     >
-      <Card.Img variant="top" src="src/assets/img/linda1.png" />
+      <Card.Img variant="top" src={props.img} />
       <Card.Body className='cert-body'>
         <Card.Title className='mt-1 cert-sub'>
           <span className='cert-url'>
