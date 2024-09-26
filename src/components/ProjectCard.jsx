@@ -7,9 +7,9 @@ function ProjectCard(props) {
       bg='dark' 
       border='dark' 
       text='light' 
-      style={{ width: '18rem' }}
+      style={{ width: '20rem' }}
     >
-      <Card.Img variant="top" src={props.img} />
+      <Card.Img variant="top" src={props.img} className='card-img-top'/>
       <Card.Body className='cert-body'>
         <Card.Title className='mt-1 cert-sub'>
           <span className='cert-url project-url'>
@@ -27,7 +27,7 @@ function ProjectCard(props) {
           {props.status}<br/>
           <span className="icon-container">
             {props.icons && props.icons.map((IconComponent, index) => (
-              <span key={index} className="fs-3">
+              <span key={index} className="fs-3 mx-1">
                 <IconComponent />
               </span>
             ))}

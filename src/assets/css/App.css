@@ -89,6 +89,13 @@ h6 {
   font-size: 0.9rem!important;
 }
 
+.card-img-top {
+  height: 13rem;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+
 #pfp {
   border-radius: 50%;
   max-width: 200px;
