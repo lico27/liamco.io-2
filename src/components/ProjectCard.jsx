@@ -7,7 +7,7 @@ function ProjectCard(props) {
       bg='dark' 
       border='dark' 
       text='light' 
-      style={{ width: '20rem' }}
+      style={{ width: '22rem' }}
     >
       <Card.Img variant="top" src={props.img} className='card-img-top'/>
       <Card.Body className='cert-body'>
