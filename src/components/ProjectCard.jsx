@@ -14,7 +14,7 @@ function ProjectCard(props) {
         <Card.Title className='mt-1 cert-sub'>
           <span className='cert-url project-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
-              {props.title}  ||  {props.type}
+              {props.title}  <br/>  ~{props.type}~
             </a>           
           </span>
           <br/><br/>

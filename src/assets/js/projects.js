@@ -29,32 +29,35 @@ export const projects = [
         icons: [FaCss3Alt, FaHtml5, SiJavascript, FaBootstrap],
         type: 'Web Development',
     },
-    // {
-    //     title: 'Pawesome Pets',
-    //     description: 'A resource to help prospective cat and dog owners choose a breed, learn facts, and pick a name for their furry friend',
-    //     url: 'https://main--sunny-semifreddo-f70c5b.netlify.app/#',
-    //     status: 'Complete',
-    //     img: pawesomeImage,
-    //     subtitle: 'Bootcamp Capstone Project #2',
-    //     icons: [FaCss3Alt, FaHtml5, SiJavascript, FaReact, FaBootstrap, FaNodeJs, FaNpm]
-    // },
-    // {
-    //     title: 'Pretty Goldfinches',
-    //     description: 'The Linda Cardellini Fanlisting - a project to practice PHP and MySQL ... and relive my youth',
-    //     url: 'https://liamco.io/linda/',
-    //     status: 'Complete',
-    //     img: lindaImage,
-    //     subtitle: 'Personal project',
-    //     icons: [FaCss3Alt, FaHtml5, FaMdb, SiPhp, GrMysql]
-    // },
-    // {
-    //     title: 'Wordlem',
-    //     description: 'Building a Wordle clone to practice my JavaScript skills',
-    //     url: 'https://github.com/lico27/wordlem',
-    //     status: 'In Progress',
-    //     img: wordlemImage,
-    //     subtitle: 'Personal project',
-    //     icons: [FaCss3Alt, FaHtml5, SiJavascript, FaMdb, SiJquery]
-    // }
+    {
+        title: 'Pawesome Pets',
+        description: 'A resource to help prospective cat and dog owners choose a breed, learn facts, and pick a name for their furry friend',
+        url: 'https://main--sunny-semifreddo-f70c5b.netlify.app/#',
+        status: 'Complete',
+        img: pawesomeImage,
+        subtitle: 'Bootcamp Capstone Project #2',
+        icons: [FaCss3Alt, FaHtml5, SiJavascript, FaReact, FaBootstrap, FaNodeJs, FaNpm],
+        type: 'Web Development',
+    },
+    {
+        title: 'Pretty Goldfinches',
+        description: 'The Linda Cardellini Fanlisting - a project to practice PHP and MySQL ... and relive my youth',
+        url: 'https://liamco.io/linda/',
+        status: 'Complete',
+        img: lindaImage,
+        subtitle: 'Personal project',
+        icons: [FaCss3Alt, FaHtml5, FaMdb, SiPhp, GrMysql],
+        type: 'Web Development',
+    },
+    {
+        title: 'Wordlem',
+        description: 'Building a Wordle clone to practice my JavaScript skills',
+        url: 'https://github.com/lico27/wordlem',
+        status: 'In Progress',
+        img: wordlemImage,
+        subtitle: 'Personal project',
+        icons: [FaCss3Alt, FaHtml5, SiJavascript, FaMdb, SiJquery],
+        type: 'Web Development',
+    }
 ]
 
