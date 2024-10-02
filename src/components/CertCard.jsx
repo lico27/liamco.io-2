@@ -29,3 +29,4 @@ function CertCard(props) {
 }
 
 export default CertCard;
+

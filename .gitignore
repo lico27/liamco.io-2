@@ -62,3 +62,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+/my-strapi-project

@@ -19,8 +19,9 @@ const Projects = () => {
           url={project.url}
           status={project.status}
           img={project.img}
-          type={project.type}
+          subtitle={project.subtitle}
           icons={project.icons}
+          type={project.type}
           />
         })}
       </div>

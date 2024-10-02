@@ -5,7 +5,7 @@ function ProjectCard(props) {
   return (
     <Card 
       bg='dark' 
-      border='dark' 
+      border='dark'
       text='light' 
       style={{ width: '22rem' }}
     >
@@ -14,11 +14,11 @@ function ProjectCard(props) {
         <Card.Title className='mt-1 cert-sub'>
           <span className='cert-url project-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
-              {props.title}
+              {props.title}  ||  {props.type}
             </a>           
           </span>
           <br/><br/>
-          <span>{props.type}</span>
+          <span>{props.subtitle}</span>
         </Card.Title>
         <Card.Subtitle className='m-0 project-desc'>
           {props.description}

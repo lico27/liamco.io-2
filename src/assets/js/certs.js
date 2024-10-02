@@ -50,17 +50,7 @@ export const certs = [
     },
     {
         icon: SiCodecademy,
-        title: "Career Path: Data Scientist (NLP Specialist)",
-        status: "In progress",
-    },
-    {
-        icon: SiCodecademy,
         title: "Analyze Data with SQL",
-        status: "In progress",
-    },
-    {
-        icon: SiFreecodecamp,
-        title: "JavaScript Algorithms and Data Structures",
         status: "In progress",
     },
     {
