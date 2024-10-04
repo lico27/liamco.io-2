@@ -9,9 +9,9 @@ import { FaThreads } from 'react-icons/fa6';
 const GreetingTemp = () => {
   return (
     <div className='w-100 flex text-center py-5'>
-        <h1 className='mb-4 text-capitalize'>Hi, I'm Liam</h1>
-        <p className='mb-1'>My portfolio is a work in progress.</p>
-        <p className='mb-2'>You can contact me here:</p>
+        <h1 className='mb-4 text-capitalize text-general'>Hi, I'm Liam</h1>
+        <p className='mb-1 text-general'>My portfolio is a work in progress.</p>
+        <p className='mb-2 text-general'>You can contact me here:</p>
         <p>
           <a href='https://github.com/lico27' target='_blank'><FaGithub className='contact-icons m-1'/></a>
           <a href='mailto:liam@liamco.io' target='_blank'><FaEnvelope className='contact-icons m-1'/></a>

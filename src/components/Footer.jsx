@@ -18,12 +18,12 @@ const Footer = () => {
         <h6 className='mb-1'>Made by Liam Cottrell © {year}</h6>
         <h6>Theme by <a href="https://bootswatch.com/" target="_blank">Bootswatch</a></h6>
         <p className='mb-2'>
-          <FaReact className='fs-3 mx-1'/>
-          <FaBootstrap className='fs-3 mx-1'/>
-          <FaHtml5 className='fs-3 mx-1'/>
-          <FaCss3Alt className='fs-3 mx-1'/>
-          <FaNodeJs className='fs-3 mx-1'/>
-          <SiVite className='fs-3 mx-1'/>
+          <FaReact className='fs-4 mx-1'/>
+          <FaBootstrap className='fs-4 mx-1'/>
+          <FaHtml5 className='fs-4 mx-1'/>
+          <FaCss3Alt className='fs-4 mx-1'/>
+          <FaNodeJs className='fs-4 mx-1'/>
+          <SiVite className='fs-4 mx-1'/>
         </p>
         
     </div>

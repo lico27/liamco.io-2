@@ -9,9 +9,8 @@ html, body {
   min-height: 100vh;
 }
 
-* {
-  color: #adb5bd;
-
+.text-general {
+  color: #adb5bd!important;
 }
 
 h1 {
@@ -20,7 +19,7 @@ h1 {
 }
 
 h6 {
-  font-size: 0.6rem!important;
+  font-size: 0.8rem!important;
 }
 
 .app-body {
@@ -35,13 +34,17 @@ h6 {
   color: #adb5bd;
 }
 
+.footer a {
+  color: #adb5bd;
+}
+
 .contact-icons {
   font-size: 2.5rem;
   color: #adb5bd;
 }
 
-.contact-icons:hover {
-  color: #000!important;
+.contact-icons:hover, .footer a:hover {
+  color: #dee2e6;
 }
 
 .cert-container {
@@ -71,7 +74,7 @@ h6 {
 }
 
 .cert-url a:hover {
-  color: #919aa1;
+  color: #888;
 }
 
 .cert-status {
