@@ -64,3 +64,4 @@ dist-ssr
 *.sw?
 
 /my-strapi-project
+/blog

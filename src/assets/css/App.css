@@ -3,17 +3,15 @@ html, body {
   margin: 0;
 }
 
-* {
-  --palette1: #131817;
-  --palette2: #5AD767;
-  --palette3: rgba(255, 255, 255, 0.55);
-  --palette4: #55595c;
-}
-
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+* {
+  color: #adb5bd;
+
 }
 
 h1 {
@@ -32,17 +30,18 @@ h6 {
 .footer {
   position: relative;
   bottom: 0;
-  border-top: 1px solid var(--palette4);
+  border-top: 1px solid #55595c;
   padding: 0.75rem 0;
+  color: #adb5bd;
 }
 
 .contact-icons {
   font-size: 2.5rem;
-  color: var(--palette4);
+  color: #adb5bd;
 }
 
 .contact-icons:hover {
-  color: #919aa1;
+  color: #000!important;
 }
 
 .cert-container {

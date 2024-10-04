@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavOne() {
   return (
-        <Navbar expand="lg" className="navbar navbar-expand-lg bg-primary px-4" data-bs-theme="dark">
+        <Navbar expand="lg" className="navbar navbar-expand-lg bg-dark px-4" data-bs-theme="dark">
           <Container>
           <Navbar.Brand></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
