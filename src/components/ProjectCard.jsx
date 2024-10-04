@@ -5,26 +5,40 @@ function ProjectCard(props) {
   return (
     <Card 
       bg='dark' 
-      border='dark'
+      border='light'
       text='light' 
       style={{ width: '22rem' }}
     >
-      <Card.Img variant="top" src={props.img} className='card-img-top'/>
+      <div style={{ position: 'relative' }}>
+        <Card.Img variant="top" src={props.img} className='card-img-top'/>
+        <span style={{
+          position: 'absolute',
+          top: '10px',
+          left: '10px',
+          color: 'white',
+          background: 'rgba(0, 0, 0, 0.5)',
+          padding: '5px 10px',
+          borderRadius: '5px',
+        }}>
+          {props.type}
+        </span>
+      </div>
+      
       <Card.Body className='cert-body'>
-        <Card.Title className='mt-1 cert-sub'>
+        <Card.Title className='mt-1'>
           <span className='cert-url project-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
-              {props.title}  <br/>  ~{props.type}~
+              {props.title}  <br/>
             </a>           
           </span>
-          <br/><br/>
-          <span>{props.subtitle}</span>
+          <br/>
+          <span className="project-sub">{props.subtitle}</span>
         </Card.Title>
         <Card.Subtitle className='m-0 project-desc'>
           {props.description}
         </Card.Subtitle>
         <Card.Text className='cert-status mt-2'>
-          {props.status}<br/>
+          {props.status}<br/><br/>
           <span className="icon-container">
             {props.icons && props.icons.map((IconComponent, index) => (
               <span key={index} className="fs-3 mx-1">

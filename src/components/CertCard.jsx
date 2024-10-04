@@ -7,7 +7,7 @@ function CertCard(props) {
     bg='dark' 
     border='light' 
     text='light' 
-    style={{ width: '14rem' }}
+    style={{ width: '14rem', height: '10rem' }}
     >
       <Card.Body className='cert-body'>
         <Card.Title className='mt-1 cert-sub'>
