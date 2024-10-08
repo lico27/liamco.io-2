@@ -37,6 +37,7 @@ h6 {
 
 .footer a {
   color: #adb5bd;
+  text-decoration: none;
 }
 
 .contact-icons {
@@ -48,7 +49,7 @@ h6 {
   color: #dee2e6;
 }
 
-.cert-container {
+.card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -56,7 +57,7 @@ h6 {
   gap: 0.5rem;
 }
 
-.cert-body {
+.card-body {
   padding-bottom: 1.25rem; 
   display: flex;
   flex-direction: column;
@@ -64,28 +65,28 @@ h6 {
   align-items: center;
 }
 
-.cert-sub {
+.card-sub {
   color: #919aa1!important;
   font-size: 0.8rem!important;
 }
 
-.cert-url a {
+.card-url a {
   color: #f8f9fa;
   text-decoration: none;
   font-size: 1rem;
 }
 
-.cert-url a:hover {
+.card-url a:hover {
   color: #888;
 }
 
-.cert-status {
+.card-status {
   font-size: 0.8rem;
 }
 
-/* .project-url {
+.project-url a {
   font-size: 1.2rem!important;
-} */
+}
 
 .project-sub {
   text-transform: uppercase;

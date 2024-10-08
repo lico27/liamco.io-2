@@ -7,7 +7,10 @@ import {
   FaNodeJs, 
   FaHtml5 
 } from "react-icons/fa";
-import { SiVite } from "react-icons/si";
+import {
+   SiVite,
+   SiAstro
+} from "react-icons/si";
 
 const currentDate = new Date();
 const year = currentDate.getFullYear();
@@ -24,6 +27,7 @@ const Footer = () => {
           <FaCss3Alt className='fs-4 mx-1'/>
           <FaNodeJs className='fs-4 mx-1'/>
           <SiVite className='fs-4 mx-1'/>
+          <SiAstro className='fs-4 mx-1'/>
         </p>
         
     </div>

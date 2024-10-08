@@ -10,7 +10,7 @@ const Projects = () => {
           Projects
         </h1> 
       </div>
-      <div className='cert-container text-center px-1 px-md-3 px-lg-5 px-xl-6'>
+      <div className='card-container text-center px-1 px-md-3 px-lg-5 px-xl-6'>
         {projects.map((project, index) => {
           return <ProjectCard 
           key={index} 

@@ -24,20 +24,20 @@ function ProjectCard(props) {
         </span>
       </div>
       
-      <Card.Body className='cert-body'>
-        <Card.Title className='mt-1'>
-          <span className='cert-url project-url'>
+      <Card.Body className='card-body'>
+        <Card.Title className='mt-1 w-100'>
+          <span className='card-url project-url'>
             <a href={props.url} target="_blank" rel="noopener noreferrer">
               {props.title}  <br/>
             </a>           
           </span>
-          <br/>
+          <hr />
           <span className="project-sub">{props.subtitle}</span>
         </Card.Title>
         <Card.Subtitle className='m-0 project-desc'>
           {props.description}
         </Card.Subtitle>
-        <Card.Text className='cert-status mt-2'>
+        <Card.Text className='card-status mt-2'>
           {props.status}<br/><br/>
           <span className="icon-container">
             {props.icons && props.icons.map((IconComponent, index) => (
