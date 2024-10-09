@@ -106,3 +106,9 @@ h6 {
 a {
   text-decoration: none!important;
 }
+
+.form-field {
+  background-color: #303030!important;
+  text-align: left!important;
+  color:#adb5bd!important;
+}
