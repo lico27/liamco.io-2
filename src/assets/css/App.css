@@ -35,18 +35,8 @@ h6 {
   color: #adb5bd;
 }
 
-.footer a {
-  color: #adb5bd;
-  text-decoration: none;
-}
-
 .contact-icons {
   font-size: 2.5rem;
-  color: #adb5bd;
-}
-
-.contact-icons:hover, .footer a:hover {
-  color: #dee2e6;
 }
 
 .about-container {
@@ -78,13 +68,8 @@ h6 {
 }
 
 .card-url a {
-  color: #f8f9fa;
   text-decoration: none;
   font-size: 1rem;
-}
-
-.card-url a:hover {
-  color: #888;
 }
 
 .card-status {
@@ -116,4 +101,8 @@ h6 {
   border-radius: 50%;
   max-width: 200px;
   margin: 0 auto
+}
+
+a {
+  text-decoration: none!important;
 }
