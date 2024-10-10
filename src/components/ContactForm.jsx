@@ -44,7 +44,7 @@ const ContactForm = () => {
       </Form.Group>
 
       <Button variant="success" type="submit">
-        Send Message
+        Send
       </Button>
     </Form>
   );
