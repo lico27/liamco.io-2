@@ -27,7 +27,7 @@ const About = () => {
             I'm also a graduate of edX's Front-End Web Development bootcamp, which taught me fundamental skills including HTML, CSS, JavaScript and React.
           </p>
           <p className='text-general'>
-            I'll be using this portfolio to keep track of my projects and independent learning before the course begins.
+            I'll be using this portfolio to keep track of my projects and learning.
           </p>
           <p className='text-general'>
             Feel free to take a look at my recent projects, and don't hesitate to get in touch! 

@@ -1,22 +1,16 @@
-import lindaImage from '../img/linda1.png';
 import pawesomeImage from '../img/pawesome.png';
 import travellerImage from '../img/traveller1.png';
-import wordlemImage from '../img/wordlem1.png';
 import { 
     FaCss3Alt,
     FaHtml5,
-    FaMdb,
     FaReact, 
     FaBootstrap,
     FaNodeJs,
     FaNpm,
 } from "react-icons/fa";
 import {
-    SiPhp,
     SiJavascript,
-    SiJquery,
 } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
 
 export const projects = [
     {
@@ -37,26 +31,6 @@ export const projects = [
         img: pawesomeImage,
         subtitle: 'Bootcamp Capstone Project #2',
         icons: [FaCss3Alt, FaHtml5, SiJavascript, FaReact, FaBootstrap, FaNodeJs, FaNpm],
-        type: 'Web Development',
-    },
-    {
-        title: 'Pretty Goldfinches',
-        description: 'The Linda Cardellini Fanlisting - a project to practice PHP and MySQL ... and relive my youth',
-        url: 'https://liamco.io/linda/',
-        status: 'Complete',
-        img: lindaImage,
-        subtitle: 'Personal project',
-        icons: [FaCss3Alt, FaHtml5, FaMdb, SiPhp, GrMysql],
-        type: 'Web Development',
-    },
-    {
-        title: 'Wordlem',
-        description: 'Building a Wordle clone to practice my JavaScript skills',
-        url: 'https://github.com/lico27/wordlem',
-        status: 'In Progress',
-        img: wordlemImage,
-        subtitle: 'Personal project',
-        icons: [FaCss3Alt, FaHtml5, SiJavascript, FaMdb, SiJquery],
         type: 'Web Development',
     }
 ]
