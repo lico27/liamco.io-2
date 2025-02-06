@@ -15,7 +15,6 @@ const Contact = () => {
         <p>
           <a href='https://github.com/lico27' target='_blank'><FaGithub className='contact-icons m-3'/></a>
           <a href='https://www.linkedin.com/in/liam-cottrell-a1837272/' target='_blank'><FaLinkedin className='contact-icons m-3'/></a>
-          <a href='https://www.threads.net/@__lico27' target='_blank'><FaThreads className='contact-icons m-3'/></a>
         </p>
         <p className='mb-4 text-general'>Or send me a message:</p>
         <ContactForm />
