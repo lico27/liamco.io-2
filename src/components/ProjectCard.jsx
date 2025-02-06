@@ -43,7 +43,10 @@ function ProjectCard(props) {
             {props.icons && props.icons.map((IconComponent, index) => (
               <span key={index} className="fs-3 mx-1">
                 <IconComponent />
-              </span>
+                <span className='url-sm'>
+                <a href={props.credit} target="_blank" rel="noopener noreferrer">Image credit</a>
+                </span>
+              </span>         
             ))}
           </span>
         </Card.Text>

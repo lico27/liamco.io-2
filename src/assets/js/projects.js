@@ -1,5 +1,6 @@
 import pawesomeImage from '../img/pawesome.png';
 import travellerImage from '../img/traveller1.png';
+import simpsonsImage from '../img/simpsons.jpg';
 import { 
     FaCss3Alt,
     FaHtml5,
@@ -7,6 +8,7 @@ import {
     FaBootstrap,
     FaNodeJs,
     FaNpm,
+    FaRProject,
 } from "react-icons/fa";
 import {
     SiJavascript,
@@ -32,6 +34,17 @@ export const projects = [
         subtitle: 'Bootcamp Capstone Project #2',
         icons: [FaCss3Alt, FaHtml5, SiJavascript, FaReact, FaBootstrap, FaNodeJs, FaNpm],
         type: 'Web Development',
+    },
+    {
+        title: 'Worst. Analysis. Ever.',
+        description: 'An exploration of Simpsons episodes in R',
+        credit: 'https://analyticsindiamag.com/ai-features/understanding-simpsons-paradox-and-its-impact-on-data-analytics/',
+        url: 'TBC',
+        status: 'In progress',
+        img: simpsonsImage,
+        subtitle: 'TidyTuesdays Project #1',
+        icons: [FaRProject],
+        type: 'Data Analysis',
     }
 ]
 
