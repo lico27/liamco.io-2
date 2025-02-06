@@ -21,13 +21,10 @@ const About = () => {
         </Card.Title>
         <Card.Text>
         <p className='text-general'>
-            Welcome to my portfolio! I'm an MSc Data Science student at <a href="https://www.uwe.ac.uk/" target="_blank">UWE Bristol</a>.
+            Welcome to my portfolio! I've been an MSc Data Science student at <a href="https://www.uwe.ac.uk/" target="_blank">UWE Bristol</a> since January 2025, and I use this portfolio to keep track of my projects and learning.
           </p>
         <p className='text-general'>
             I'm also a graduate of edX's Front-End Web Development bootcamp, which taught me fundamental skills including HTML, CSS, JavaScript and React.
-          </p>
-          <p className='text-general'>
-            I'll be using this portfolio to keep track of my projects and learning.
           </p>
           <p className='text-general'>
             Feel free to take a look at my recent projects, and don't hesitate to get in touch! 
