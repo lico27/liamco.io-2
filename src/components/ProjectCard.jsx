@@ -35,7 +35,15 @@ function ProjectCard(props) {
           <span className="project-sub">{props.subtitle}</span>
         </Card.Title>
         <Card.Subtitle className='m-0 project-desc'>
-          {props.description}
+          {props.description}<br /><br />
+          {props.credit ? (
+  <span className='url-sm'>
+    <a href={props.credit} target="_blank" rel="noopener noreferrer">
+      Image credit
+    </a>
+  </span>
+) : null}
+
         </Card.Subtitle>
         <Card.Text className='card-status mt-2'>
           {props.status}<br/><br/>
@@ -43,9 +51,6 @@ function ProjectCard(props) {
             {props.icons && props.icons.map((IconComponent, index) => (
               <span key={index} className="fs-3 mx-1">
                 <IconComponent />
-                <span className='url-sm'>
-                <a href={props.credit} target="_blank" rel="noopener noreferrer">Image credit</a>
-                </span>
               </span>         
             ))}
           </span>
