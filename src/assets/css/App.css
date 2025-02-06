@@ -80,6 +80,10 @@ h6 {
   font-size: 1.2rem!important;
 }
 
+.url-sm a {
+  font-size: 0.7rem;
+}
+
 .project-sub {
   text-transform: uppercase;
   font-size: 0.8rem;
