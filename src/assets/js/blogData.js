@@ -2,11 +2,11 @@ import simpsonsImage from '../img/simpsons.jpg';
 
 const blogData = [
     {
-      title: "Exploring Machine Learning with R",
-      description: "A deep dive into machine learning techniques using R.",
-      date: "February 6, 2025",
+      title: "My first project! 🥲",
+      description: "Looking at some Simpsons data for #TidyTuesday - having been learning R for a grand total of two weeks",
+      date: "February 8, 2025",
       image: simpsonsImage,  
-      url: "/src/assets/blogs/simpsons_md.html"
+      url: "/blogs/simpsons.html"
     }
   ];
   
