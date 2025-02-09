@@ -12,7 +12,10 @@ const BlogPost = ({ title, description, date, image, url }) => {
         <div className="blog-image-preview">
             <img src={image} alt={title} className="blog-preview-image" />
         </div>
-        <p>{description}</p>
+        <p 
+          className="mt-3" 
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
       </Card.Body>
     </Card>
   );

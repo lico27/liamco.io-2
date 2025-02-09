@@ -3,12 +3,13 @@ import simpsonsImage from '../img/simpsons.jpg';
 const blogData = [
     {
       title: "My first project! 🥲",
-      description: "Looking at some Simpsons data for #TidyTuesday - having been learning R for a grand total of two weeks",
+      description: "I have officially undertaken my first data analysis project - looking at some Simpsons data for <a href='https://github.com/rfordatascience/tidytuesday' target='_blank'>#TidyTuesday</a>. I've been learning R for a grand total of two weeks so this is not particularly ~excellent~ (Mr Burns voice) but we all start somewhere!",
       date: "February 8, 2025",
       image: simpsonsImage,  
-      url: "/src/assets/blogs/simpsons.html"
+      url: "/src/assets/notebooks/simpsons.html",
     }
   ];
   
   export default blogData;
   
+
