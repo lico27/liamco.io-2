@@ -21,7 +21,7 @@ export const projects = [
         title: 'Worst. Analysis. Ever.',
         description: 'An exploration of Simpsons episodes in R',
         credit: 'https://analyticsindiamag.com/ai-features/understanding-simpsons-paradox-and-its-impact-on-data-analytics/',
-        url: '/blogs/simpsons.html',
+        url: "/src/assets/blogs/simpsons.html",
         status: 'Complete',
         img: simpsonsImage,
         subtitle: 'TidyTuesdays Project #1 - Feb 2025',

@@ -6,7 +6,7 @@ const blogData = [
       description: "Looking at some Simpsons data for #TidyTuesday - having been learning R for a grand total of two weeks",
       date: "February 8, 2025",
       image: simpsonsImage,  
-      url: "/blogs/simpsons.html"
+      url: "/src/assets/blogs/simpsons.html"
     }
   ];
   
