@@ -9,7 +9,6 @@ import {
 } from "react-icons/fa";
 import {
    SiVite,
-   SiAstro
 } from "react-icons/si";
 
 const currentDate = new Date();
@@ -27,7 +26,6 @@ const Footer = () => {
           <FaCss3Alt className='fs-4 mx-1'/>
           <FaNodeJs className='fs-4 mx-1'/>
           <SiVite className='fs-4 mx-1'/>
-          <SiAstro className='fs-4 mx-1'/>
         </p>
         
     </div>
