@@ -65,3 +65,8 @@ dist-ssr
 
 /my-strapi-project
 /blog
+
+
+*.json
+
+private*
