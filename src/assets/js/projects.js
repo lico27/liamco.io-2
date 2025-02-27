@@ -1,6 +1,7 @@
 import pawesomeImage from '../img/pawesome.png';
 import travellerImage from '../img/traveller1.png';
 import simpsonsImage from '../img/simpsons.jpg';
+import netflixImage from '../img/netflix.png';
 import { 
     FaCss3Alt,
     FaHtml5,
@@ -18,10 +19,21 @@ import {
 
 export const projects = [
     {
+        title: 'Am I just a couch potato?',
+        description: 'An analysis of my Netflix viewing habits in R',
+        credit: 'https://www.enriquedans.com/2021/01/netflix-y-el-cambio-de-tendencia-en-el-consumo-de-contenidos.html',
+        url: "",
+        status: 'In Progress',
+        img: netflixImage,
+        subtitle: 'Personal Project #1 - Feb 2025',
+        icons: [FaRProject, SiTidyverse],
+        type: 'Data Analysis',
+    },
+    {
         title: 'Worst. Analysis. Ever.',
         description: 'An exploration of Simpsons episodes in R',
         credit: 'https://analyticsindiamag.com/ai-features/understanding-simpsons-paradox-and-its-impact-on-data-analytics/',
-        url: "/src/assets/private-notebooks/simpsons.html",
+        url: "",
         status: 'Complete',
         img: simpsonsImage,
         subtitle: 'TidyTuesdays Project #1 - Feb 2025',

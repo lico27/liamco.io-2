@@ -24,13 +24,15 @@ function ProjectCard(props) {
         </span>
       </div>
       
-      <Card.Body className='card-body'>
-        <Card.Title className='mt-1 w-100'>
-          <span className='card-url project-url'>
-            <a href={props.url} target="_blank" rel="noopener noreferrer">
-              {props.title}  <br/>
-            </a>           
-          </span>
+      <Card.Body className="card-body">
+        <Card.Title className="mt-1 w-100">
+          {props.url ? (
+            <a href={props.url} target="_blank" rel="noopener noreferrer" className="project-url">
+              {props.title}
+            </a>
+          ) : (
+            <span className="project-title">{props.title}</span>
+          )}
           <hr />
           <span className="project-sub">{props.subtitle}</span>
         </Card.Title>
