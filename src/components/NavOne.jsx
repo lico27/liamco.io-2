@@ -14,7 +14,7 @@ function NavOne() {
                 <Nav.Link as={Link} to="/">About</Nav.Link>
                 <Nav.Link as={Link} to="/certs">Certifications</Nav.Link>
                 <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-                <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+                <Nav.Link href="https://blog.liamco.io">Blog</Nav.Link>
                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>

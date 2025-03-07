@@ -19,7 +19,7 @@ import {
 
 export const projects = [
     {
-        title: 'Am I just a couch potato?',
+        title: 'The Algorithm Knows Me Too Well',
         description: 'An analysis of my Netflix viewing habits in R',
         credit: 'https://www.enriquedans.com/2021/01/netflix-y-el-cambio-de-tendencia-en-el-consumo-de-contenidos.html',
         url: "",
